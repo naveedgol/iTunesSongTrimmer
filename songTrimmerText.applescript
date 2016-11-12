@@ -1,6 +1,6 @@
 tell application "iTunes"
 	set startTime to start of current track
-	set endTime to duration of current track
+	set endTime to finish of current track
 	set fileLocation to location of current track
 end tell
 
@@ -12,13 +12,15 @@ tell application "Finder"
 		run
 		open fileLocation
 		trim document 1 from startTime to endTime
-		set newDoc to last item of (documents whose name contains "Untitled")
-		export newDoc in file savePath using settings preset "Audio Only"
-		delay
+		(*set newDoc to last item of (documents whose name contains "Untitled")*)
+		export document 1 in file savePath using settings preset "Audio Only"
+		delay 3
 		do shell script "killall \"QuickTime Player\""
 	end tell
 end tell
 
 tell application "iTunes"
 	set start of current track to 0
+	set songLength to duration of current track
+	set finish of current track to songLength
 end tell
