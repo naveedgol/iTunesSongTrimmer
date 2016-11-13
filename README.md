@@ -3,7 +3,7 @@ Apple Script that trims a track to according track option times
 
 Installation
 
-1. Place songTrimmer.scpt in /Library/iTunes/Scripts directory
+1. Place songTrimmer.applescript in /Library/iTunes/Scripts directory
 
 
 Usage
