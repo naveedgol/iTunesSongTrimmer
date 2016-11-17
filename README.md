@@ -12,7 +12,7 @@ Usage
 
 2. Right click & select Get "Info"
 
-3. Under "Options", adjust start time, click OK
+3. Under "Options", adjust start/finish time, click OK
 
 4. Run songTrimmer from scripts dropdown in menu bar
 
