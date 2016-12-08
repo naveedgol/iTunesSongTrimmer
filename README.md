@@ -1,9 +1,9 @@
 # iTunesSongTrimmer
-Apple Script that trims a track to according track option times
+Apple Script that trims a AAC audio file to according track option times
 
 Installation
 
-1. Place songTrimmer.applescript in /Library/iTunes/Scripts directory
+1. Add 'Song Trimmer.applescript' to /Library/iTunes/Scripts directory
 
 
 Usage
@@ -14,5 +14,5 @@ Usage
 
 3. Under "Options", adjust start/finish time, click OK
 
-4. Run songTrimmer from scripts dropdown in menu bar
+4. Run 'Song Trimmer' from scripts dropdown in menu bar
 
