@@ -12,7 +12,7 @@ Usage
 
 1. Select a track in iTunes
 
-2. Right click & select Get "Info"
+2. Right click & select "Get Info"
 
 3. Under "Options", adjust start/finish time, click OK
 
